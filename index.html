@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Jeniece Avalos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <head>
+ <title>Jeniece's Notes</title>
+</head>
+
+<body>
+ <div class="lesson">
+  <h1>Lesson 1: Getting Started with HTML</h1>
+ </div>
+
+ <div class="contents">
+  <h2>Contents:</h2>
+   <ol>
+    <li><a href="#1">How the Web Works</a></li>
+    <li><a href="#2">HTML</a></li>
+    <li><a href="#3">Tags and Elements</a></li>
+    <li><a href="#4">Why Computers are Stupid</a></li>
+    <li><a href="#5">Inline vs Block Elements</a></li>
+   </ol> 
+ </div>   
+
+ <div class="contents2 titles" id="#1">
+   How the Web Works
+ </div> 
+
+  <div class="notes">
+  <p>
+  The web is a bunch of computers that talk to each other. When a person goes to a web page, their computer sends a HTTP Request to a server. The server finds a HTML doc and sends it back to the  computer where a web browser receives the page and displays it on the screen. 
+  </P>  
+</div>
+
+<div class="contents2 titles" id="#2">
+   HTML: Hypertext Markup Language
+</div>
+
+ <div class="notes">
+  <p>
+    HTML documents are the majority of the web contents. These docs contain text which reflect what you see and how it looks on the screen.
+  </P>
+ </div>
+
+ <div class="contents2 titles" id="#3">
+      Tags and Elements
+ </div>
+ <div class="notes">
+  <p>
+    HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags. This video explains the distinction well.
+	  </P>
+
+  <b>Types of Tags:</b><br>
+  <ol>
+   <li>	<b>B</b> - Makes the text content bold. 
+   <li>	<b>EM</b> - Makes the text content initialized. 
+   <li>	<b>Break</b> - Makes one line break, has no closing tag. 
+   <li>	<b>Paragraph</b>- Creates an "invisible box" around the text content. 
+   <li>	<b>Anchor</b> - Makes a link to another page. 
+   <li>	<b>Img</b> - Tags an image.
+   <li>	<b>Div</b> - Makes a box around content which allows for markup of the content. It has no required attributes, but style and class are common. Because it is a block level element, the browser will display line breaks before and after it.     
+   <li><b>Span</b> - Allows for markup of a single line of element.  no required attributes, but style and class are common.
+  </ol> 
+ </div>
+
+ <div class="contents2 titles" id="#4">
+     Why Computers are Stupid
+ </div>
+
+ <div class="notes">
+  <p> 
+   Computers are stupid because they literally interpret instructions. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.
+  </p>
+ </div> 
+
+  <div class="contents2 titles" id="#5">
+    Inline vs Block Elements
+  </div>  
+
+ <div class="notes">
+  <p> 
+    <b>Inline:</b> Inline elements are normally displayed without line breaks. Note: Only  (br) ends a line, then wraps to the next line (e.g. a, span, br, img, strong)<br>  
+    <b>Block:</b> Creates an invisible box around the text. It can have height and width. Normally start (and end) with a new line, when displayed in a browser. (e.g. Div, p, form)<br>
+  </p>
+ </div> 
+
+ <div class="lesson">
+  <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+ </div>
+
+ <div class="contents">
+  <h2>Contents:</h2>
+   <ol>
+    <li><a href="#6">Tree-like Structure </a></li>
+    <li><a href="#7">Boxes</a></li>
+    <li><a href="#9">Tools</a></li>
+   </ol> 
+ </div>    
+
+ <div class="contents2 titles" id="#6">
+   Tree-like Structure
+ </div> 
+
+ <div class="notes">
+  <p>
+   A webpage is made up like a house. HTML is like the walls of the house. CSS controls how the house looks, like the color of the walls. Javascript shapes how one interacts with the house, like a garage opener. Web browser is using a tree structure to determine how to display pages.
+   </p>
+   <p> 
+   HTML and CSS are both "languages"•HTML controls the "structure" of a web page:<br>
+   - CSS controls the "style" of a page (how it looks)<br>
+   - When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a page.
+   </p>
+
+   <p>   
+    DOM - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.
+   </P>  
+</div>   
+
+ <div class="contents2 titles" id="#7">
+     Boxes
+ </div> 
+
+ <div class="notes">
+  <p>
+   Boximizing Process: After the dom is formed, everything on the webpage tend to be in boxes or boxes inside boxes and its box has its own class name. The tag name div is used to define a box.<br>
+    <b>Note:</b> Boxing makes it easy to manipulate or deal with different images, text, multimedia. The more the boxes the more the webpage get crouded.
+  </P>  
+</div>  
+
+ <div class="contents2 titles" id="#8">
+     Tools
+ </div> 
+
+ <div class="notes">
+  <p>
+   There are 3 developer tools to write HTML documents:<br>
+    1. <b>Scratchpad</b>:This gives a real time feedback of how your webpage will look; can be used for simple webpages.<br>
+    2. <b>Codepen:</b> This takes 2-3 seconds to give feedback of how your page will look like.<br>
+    3. <b>Sublime:</b> This need one to refresh the page, but it is a more professional tool for web developers.
+   </P>
+</div>
+
+ <div class="lesson">
+  <h2>Lesson 3: Repetition & CSS</h2>
+ </div>
+
+ <p>
+   Avoiding repetition is important for a variety of reasons.
+ </p>
+<div class="notes">
+ <p>
+  <b>Avoiding Errors:</b> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise. <b>This really confuses me.</b>
+   </p> 
+
+<p>
+  <b>Consistency:</b> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style. 
+</p> 
+
+<p>
+   <b>CSS</b>stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+ </P>
+</div>
+</body>
+
+</body>
+
+</html>
