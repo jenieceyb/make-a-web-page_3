@@ -1,0 +1,61 @@
+.lesson {
+  text-align: left;
+	background-color: #90D8D4;
+  border-radius: 10px; 
+  color: black;
+  padding: 5px;
+  margin: 10px auto
+}
+.contents {
+  text-align: left;
+	background-color: #FFC299;
+  border-radius: 10px; 
+  color: black;
+  padding: 2px;
+  margin: 10px auto
+}
+.contents2 {
+  text-align: left;
+	background-color: #BEBEBE;
+  border-radius: 10px; 
+  color: black;
+  padding: 2px;
+  margin: 10px auto
+}
+.notes {
+  text-align: left;
+	background-color: #D3EFEE;
+  border-radius: 10px; 
+  color: black;
+  padding: 5px;
+  margin: 10px auto
+}
+.titles {
+  font-size: 28px;
+	margin: 0px;
+	text-align: left;
+	color: #005A5A;
+  font-weight: bold;
+}
+
+li {
+	font-size: 20px;
+	line-height: 30px;
+  }
+
+body {
+	padding: 10px 10px;
+	font-family: Helvetica;
+	max-width: 1850px;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+
+p {
+	margin: 10px 0;
+}
+
+
+.TOT {
+	list-style-type: none;
+}
